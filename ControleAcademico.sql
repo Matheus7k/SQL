@@ -42,4 +42,4 @@ CREATE TABLE ItemMatricula (
     CONSTRAINT PK_Item_Matricula PRIMARY KEY (ID, Codigo),
     CONSTRAINT FK_Item_Matricula_Matricula FOREIGN KEY (ID) REFERENCES Matricula (ID),
     CONSTRAINT FK_Item_Matricula_Disciplina FOREIGN KEY (Codigo) REFERENCES Disciplina (Codigo),
-); 
+);
